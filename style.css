@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    color: #536872;
+    background-color: #FDF5E6;
+}
+.info{
+    display: flex;
+}
+@media (max-width: 570px) {
+    .info{
+        display: block;
+        margin: 0px auto;
+    }
+    .info-img{
+        display: block;
+        margin: 0 auto;
+    }
+    .cards{
+        display: block;
+    }
+    .input-row{
+        display: block;
+    }
+}
+.info-txt{
+    margin-left: 25px;
+}
+.info-txt h1{
+   text-align: center;
+}
+ul, table, li{
+    margin: 0;
+    padding: 0;
+}
+.info-txt p{
+    color: #8DA399;
+    margin: 0px 15px; 
+}
+.card{
+    background-color: #FAF5DF;
+    border: 5px solid #006e6e;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 25px;
+    max-width: 300px;
+    margin-top: 30px;
+    height: 200px;
+}
+.hobby{
+    text-align: center;
+}
+.hobby li {
+    margin-bottom: 5px;
+}
+ul{
+    list-style: none;
+    padding-bottom: 0px;
+}
+.container{
+    max-width: 650px;
+    margin: auto;
+}
+.info-img{
+    border-radius: 30px;
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s;
+}
+.info-img:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+.exp{
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.exp th:hover, .exp td:hover{
+  background-color: #8a833914;
+}
+.btn{
+    border: none;
+    padding: 10px 30px;
+    background-color: #006e6e;
+    transition: all 0.2s;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: rgba(0, 110, 110, 0.845);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #1a7870;
+    transition: all 0.2s;
+}
+a:hover{
+    color: #22a79c;
+}
+a:visited{
+   color: #8a8339;
+}
+a:visited:hover{
+    color: #bdb44e;
+}
+.cards{
+    display: flex;
+}
+.hobby{
+    padding-right: 30px;
+    padding-bottom: 0;
+    height:auto;
+}
+label{
+    display: block;
+}
+.input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: all 0.2s;
+    width: 100%;
+}
+.input:focus{
+   border-bottom: 1px solid #006e6e;
+   border-left: 3px solid #006e6e;
+}
+.input-group{
+    width: 50%;
+    margin-right: 15px;
+}
+.input-row{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-title{
+    text-align: center;
+}
